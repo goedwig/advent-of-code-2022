@@ -5,7 +5,7 @@ with open("10/input.txt") as f:
             instructions.append("noop")
         instructions.append(instr)
 
-# Part 01
+# Part 1
 
 X = 1
 X_sum = 0
@@ -19,7 +19,7 @@ for cycle, instr in enumerate(instructions, start=1):
 
 print(X_sum)
 
-# Part 02
+# Part 2
 
 CRT = [["."] * 40 for _ in range(6)]
 cycle = 0

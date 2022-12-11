@@ -23,9 +23,9 @@ def solve(monkeys, rounds, decrease):
     print(max_1 * max_2)
 
 
-# Part 01
+# Part 1
 solve(monkeys[:], 20, lambda value: value // 3)
 
-# Part 02 🍑🔥
+# Part 2 🍑🔥
 divider_product = reduce(lambda a, b: a * b, map(itemgetter("divider"), monkeys))
 solve(monkeys[:], 10_000, lambda value: value % divider_product)

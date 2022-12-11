@@ -1,4 +1,4 @@
-f = open("04/input.txt")
+f = open("4/input.txt")
 
 full_containment = 0
 

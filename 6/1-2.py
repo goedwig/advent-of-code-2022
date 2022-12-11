@@ -1,4 +1,4 @@
-with open("06/input.txt") as f:
+with open("6/input.txt") as f:
     datastream = f.read().rstrip()
 
 

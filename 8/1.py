@@ -1,4 +1,4 @@
-with open("08/input.txt") as f:
+with open("8/input.txt") as f:
     tree_map = [list(map(int, line)) for line in f.read().splitlines()]
 
 visible = len(tree_map) * 4 - 4
