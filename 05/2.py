@@ -1,6 +1,6 @@
 from operator import itemgetter
 
-with open("5/input.txt") as f:
+with open("05/input.txt") as f:
     lines = [line.rstrip() for line in f.readlines()]
 
 drawing, instructions = lines[7::-1], lines[10:]

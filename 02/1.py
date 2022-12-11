@@ -1,18 +1,17 @@
 score_map = {
     "B X": 1,
-    "C X": 2,
-    "A X": 3,
-    "A Y": 4,
+    "C Y": 2,
+    "A Z": 3,
+    "A X": 4,
     "B Y": 5,
-    "C Y": 6,
-    "C Z": 7,
-    "A Z": 8,
+    "C Z": 6,
+    "C X": 7,
+    "A Y": 8,
     "B Z": 9,
-
 }
 score = 0
 
-f = open("2/input.txt")
+f = open("02/input.txt")
 
 for line in f:
     score += score_map[line.rstrip()]

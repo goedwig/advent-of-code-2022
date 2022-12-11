@@ -1,4 +1,4 @@
-with open("9/input.txt") as f:
+with open("09/input.txt") as f:
     moves = [(line[0], int(line[2:])) for line in f.read().splitlines()]
 
 Hx, Hy = 0, 0

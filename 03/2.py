@@ -3,7 +3,7 @@ from string import ascii_letters
 
 priorities_sum = 0
 
-with open("3/input.txt") as f:
+with open("03/input.txt") as f:
     lines = [line.rstrip() for line in f.readlines()]
 
 

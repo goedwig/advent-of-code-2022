@@ -8,7 +8,7 @@ class Dir:
 root_dir = Dir()
 current_dir = root_dir
 
-with open("7/input.txt") as f:
+with open("07/input.txt") as f:
     f.readline()  # skip first '$ cd /'
     terminal_output = [line.rstrip().removeprefix("$ ") for line in f]
 
@@ -31,7 +31,7 @@ for line in terminal_output:
             d.size += size
 
 
-# Part 1
+# Part 01
 
 def calc_sum(current_dir):
     result_sum = 0
@@ -47,7 +47,7 @@ def calc_sum(current_dir):
 
 print(calc_sum(root_dir))
 
-# Part 2
+# Part 02
 
 total_space = 70_000_000
 free_space = total_space - root_dir.size

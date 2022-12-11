@@ -1,7 +1,7 @@
 top_three = [0, 0, 0]
 elf_calories = 0
 
-f = open("1/input.txt")
+f = open("01/input.txt")
 
 for line in f:
     line = line.rstrip()

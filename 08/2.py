@@ -1,6 +1,6 @@
 from functools import reduce
 
-with open("8/input.txt") as f:
+with open("08/input.txt") as f:
     tree_map = [list(map(int, line)) for line in f.read().splitlines()]
 
 best_scenic_score = 0

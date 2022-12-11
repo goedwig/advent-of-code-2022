@@ -1,4 +1,4 @@
-f = open("4/input.txt")
+f = open("04/input.txt")
 
 overlap = 0
 
